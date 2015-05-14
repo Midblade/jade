@@ -1,29 +1,41 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="41" inline="true" x="238" y="165">
+  <block type="controls_repeat" id="1" inline="true" x="238" y="165">
     <value name="TIMES">
-      <block type="math_number" id="93">
+      <block type="math_number" id="2">
         <field name="NUM">125000</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="57"></block>
+      <block type="movement_forward" id="3"></block>
     </statement>
     <next>
-      <block type="movement_left" id="196">
+      <block type="movement_left" id="4">
         <next>
-          <block type="controls_repeat" id="162" inline="true">
+          <block type="controls_repeat" id="5" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="175">
+              <block type="math_number" id="6">
                 <field name="NUM">125000</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_forward" id="186"></block>
+              <block type="movement_forward" id="7"></block>
             </statement>
             <next>
-              <block type="movement_right" id="206">
+              <block type="movement_left" id="36">
                 <next>
-                  <block type="controls_repeat" id="223" inline="true"></block>
+                  <block type="controls_repeat" id="9" inline="true">
+                    <value name="TIMES">
+                      <block type="math_number" id="16">
+                        <field name="NUM">125000</field>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block type="movement_forward" id="26"></block>
+                    </statement>
+                    <next>
+                      <block type="movement_right" id="56"></block>
+                    </next>
+                  </block>
                 </next>
               </block>
             </next>
